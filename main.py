@@ -11,7 +11,7 @@ class MainProgramGame:
     
     def main_menu():
         while True:
-            print("========QUIZ BRAND=======")
+            print("========QUIZ FASHION=======")
             print("1. Mulai quiz")
             print("2. Keluar")
             menu = input("Pilih menu (1/2): ")
