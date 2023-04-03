@@ -16,7 +16,7 @@ class SubProgramGame:
             self.question("Angka berapa yang sering dikaitkan dengan jeans Levis? ", "501")
             self.end_game()
         else:
-            print("Kembali lagi ya!")
+            print("Kembali lagi yaa!")
     
     def question(self, text, answer):
         jawaban = input(f"Pertanyaan: {text}")
