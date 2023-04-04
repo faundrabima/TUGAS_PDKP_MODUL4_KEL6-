@@ -34,4 +34,4 @@ def end_game(skor: int, total_pertanyaan: int) -> float:
     print("Terima kasih telah memainkan quiz ini!")
     print("Kamu mendapatkan", skor, "pertanyaan yang benar!")
     mark = (skor/total_pertanyaan)*100
-    return mark
+    return mark 
