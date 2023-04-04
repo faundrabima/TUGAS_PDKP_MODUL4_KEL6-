@@ -1,19 +1,19 @@
 from SubProgramGame import *
 
 class MainProgramGame:
-     
-    def _init_(SubProgramGame) -> None:
-        pass
 
     def play_game():
         quiz = SubProgramGame()
         quiz.play()
     
-    def main_menu():
-        while True:
+    # FUNCTION RETURN TYPE TIDAK BERPARAMETER
+    def opsi_game() -> None:
             print("========QUIZ FASHION=======")
             print("1. Mulai quiz")
             print("2. Keluar")
+
+    def main_menu():
+        while True:
             menu = input("Pilih menu (1/2): ")
             if menu == "1":
                 MainProgramGame.play_game()
@@ -23,6 +23,7 @@ class MainProgramGame:
             else:
                 print("Menu tidak tersedia!")
                 continue
-
-if _name_ == "_main_":
+    
+if __name__ == '__main__':
+    MainProgramGame.opsi_game()
     MainProgramGame.main_menu()
