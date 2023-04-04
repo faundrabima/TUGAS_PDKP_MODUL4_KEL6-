@@ -6,7 +6,7 @@ class SubProgramGame:
     
     # METHOD NON RETURN TYPE
     def play(self):
-        print("Selamat datang di Game Quiz Brand!")
+        print("Selamat datang di Game Quiz Fashion!")
         jawaban = input('Apakah kamu siap bermain? (ya/tidak): ')
         if jawaban.lower() == 'ya':
             self.pertanyaan("Darimana kah brand ternama Prada dibuat? ", "itali")
